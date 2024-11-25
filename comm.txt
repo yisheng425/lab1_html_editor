@@ -1,0 +1,27 @@
+以下是示例命令，你可以输入到命令行界面中来测试编辑器功能：
+1. 初始化 HTML 编辑器
+命令：init
+2. 插入元素
+命令：insert div myDiv body "This is a new div"
+3. 插入带子元素的元素
+命令：insert p para1 body "This is a paragraph"
+
+append p para2 body "This is a paragraph"
+
+4. 编辑元素的文本
+命令：edit-text para1 "This is an updated paragraph"
+5. 编辑元素的 ID
+命令：edit-id para1 paraUpdated
+6. 删除元素
+命令：delete paraUpdated
+7. 显示树形结构
+命令：print-tree
+8. 显示缩进格式
+命令：print-indent 4
+9. 拼写检查
+命令：spell-check
+10. 读入 HTML 文件
+命令：read test.html
+11. 保存 HTML 文件
+命令：save output.html
+12. 撤销和重做操作• 命令：undo• 命令：redo
